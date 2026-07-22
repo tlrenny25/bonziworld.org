@@ -1493,7 +1493,7 @@ var _createClass = (function () {
         ],
         event_list_fact_end: [[{ type: "text", text: "o gee whilickers wasn't that sure interesting huh" }]],
     }
-(BonziData.event_list_joke = [
+BonziData.event_list_joke = [
     { type: "add_random", pool: "event_list_joke_open", add: BonziData.event_list_joke_open },
     { type: "anim", anim: "shrug_fwd", ticks: 15 },
     { type: "add_random", pool: "event_list_joke_mid", add: BonziData.event_list_joke_mid },
@@ -1501,14 +1501,14 @@ var _createClass = (function () {
     { type: "add_random", pool: "event_list_joke_end", add: BonziData.event_list_joke_end },
     { type: "idle" },
 ]),
-    (BonziData.event_list_fact = [
+    BonziData.event_list_fact = [
         { type: "add_random", pool: "event_list_fact_open", add: BonziData.event_list_fact_open },
         { type: "add_random", pool: "event_list_fact_mid", add: BonziData.event_list_fact_mid },
         { type: "idle" },
         { type: "add_random", pool: "event_list_fact_end", add: BonziData.event_list_fact_end },
         { type: "idle" },
     ]),
-    (BonziData.event_list_triggered = [
+    BonziData.event_list_triggered = [
         { type: "anim", anim: "cool_fwd", ticks: 30 },
         {
             type: "text",
