@@ -1493,7 +1493,7 @@ var _createClass = (function () {
         ],
         event_list_fact_end: [[{ type: "text", text: "o gee whilickers wasn't that sure interesting huh" }]],
     }
-BonziData.event_list_joke = [
+(BonziData.event_list_joke = [
     { type: "add_random", pool: "event_list_joke_open", add: BonziData.event_list_joke_open },
     { type: "anim", anim: "shrug_fwd", ticks: 15 },
     { type: "add_random", pool: "event_list_joke_mid", add: BonziData.event_list_joke_mid },
@@ -1501,14 +1501,14 @@ BonziData.event_list_joke = [
     { type: "add_random", pool: "event_list_joke_end", add: BonziData.event_list_joke_end },
     { type: "idle" },
 ]),
-    BonziData.event_list_fact = [
+    (BonziData.event_list_fact = [
         { type: "add_random", pool: "event_list_fact_open", add: BonziData.event_list_fact_open },
         { type: "add_random", pool: "event_list_fact_mid", add: BonziData.event_list_fact_mid },
         { type: "idle" },
         { type: "add_random", pool: "event_list_fact_end", add: BonziData.event_list_fact_end },
         { type: "idle" },
     ]),
-    BonziData.event_list_triggered = [
+    (BonziData.event_list_triggered = [
         { type: "anim", anim: "cool_fwd", ticks: 30 },
         {
             type: "text",
@@ -1531,7 +1531,7 @@ BonziData.event_list_joke = [
             say: "If you cant accept me your a gorillaphobe and need to check your file permissions. Thank you for being so understanding.",
         },
         { type: "idle" },
-    ]), BonziData.event_list_linux = [{
+    ]), (BonziData.event_list_linux = [{
         type: "text",
         text: "I'd just like to interject for a moment. What you’re referring to as Linux, is in fact, BONZI/Linux, or as I’ve recently taken to calling it, BONZI plus Linux."
     }, {
@@ -1551,7 +1551,7 @@ BonziData.event_list_joke = [
         text: "Linux is normally used in combination with the BONZI operating system: the whole system is basically BONZI with Linux added, or BONZI/Linux. All the so-called “Linux” distributions are really distributions of BONZI/Linux."
     }]
 
-BonziData.event_list_pawn = [
+(BonziData.event_list_pawn = [
     {
         type: "text",
         text: "Hi, my name is BonziBUDDY, and this is my website. I meme here with my old harambe, and my son, Clippy. Everything in here has an ad and a fact. One thing I've learned after 17 years - you never know what is gonna give you some malware."
